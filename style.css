@@ -1,0 +1,42 @@
+/* universal style setting */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    color: rgb(7, 75, 77);
+    text-transform: uppercase;
+    background: darkseagreen;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+}
+
+blockquote {
+    border-left: 0.25em solid rgb(198, 201, 201);
+    font-style: italic;
+    margin: 0 0 1.5625em;
+    padding-left: 1em;
+    padding-right: 1em;
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '';
+}
